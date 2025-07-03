@@ -28,7 +28,7 @@ wheels/
 #  often created by 'pyi-makespec.py'.
 #  See https://pyinstaller.readthedocs.io/en/stable/spec-files.html
 
-*.spec
+# *.spec
 
 # PyInstaller build files
 build/

@@ -10,7 +10,8 @@ echo Installing dependencies...
 pip install -r requirements.txt
 
 echo Building the executable...
-pyinstaller --onefile --name file2md --distpath .\dist --workpath .\build src\main.py
+rem pyinstaller --onefile --name file2md --distpath .\dist --workpath .\build src\main.py
+pyinstaller file2md.spec
 
 echo Deactivating virtual environment...
 deactivate
